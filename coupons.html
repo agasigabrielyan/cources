@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Купоны</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+
+<div class="container container__heading">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Купоны</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <table class="coupon-table table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>Купон</th>
+                <th>Пользователь</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>DAOEA948</td>
+            <td>Иванов И.И.</td>
+            <td>Активен</td>
+        </tr>
+        <tr>
+            <td>DAOEA948</td>
+            <td>Иванов И.И.</td>
+            <td>Активен</td>
+        </tr>
+        <tr>
+            <td>DAOEA948</td>
+            <td class="coupon-table__choose">
+                <span>Не выбран</span>
+                <button
+                        data-toggle="modal"
+                        data-target="#coupon__choose-user"
+                        class="coupon-table__choose-button">
+                        Выбрать пользователя
+                </button>
+            </td>
+            <td>Не применен</td>
+        </tr>
+        <tr>
+            <td>DAOEA948</td>
+            <td>Иванов И.И.</td>
+            <td>Активен</td>
+        </tr>
+        <tr>
+            <td>DAOEA948</td>
+            <td>Иванов И.И.</td>
+            <td>Активен</td>
+        </tr>
+        <tr>
+            <td>DAOEA948</td>
+            <td>Иванов И.И.</td>
+            <td>Активен</td>
+        </tr>
+        <tr>
+            <td>DAOEA948</td>
+            <td><b>Иванов И.И.</b></td>
+            <td>
+                <button
+                        data-toggle="modal"
+                        data-target="#coupon__use-button"
+                        class="coupon-table__use-button">
+                    Применить купон
+                </button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="./src/lib/jquery.min.js"></script>
+<script src="./src/lib/bootstrap.min.js"></script>
+<script src="./src/script.js"></script>
+
+<!-- BEGIN: modal window coupon__use-button -->
+<div class="modal fade" id="coupon__use-button" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" type="text" value="" name="coupon" placeholder="Введите купон" />
+                        <br/>
+                        <input class="use-coupon__button" type="submit" value="Применить купон" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: modal window -->
+<!-- BEGIN: modal window coupon__choose-user -->
+<div class="modal fade" id="coupon__choose-user" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <form>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                        <label class="form-check-label" for="radio1">Администратор</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                        <label class="form-check-label" for="radio2">Иванов И.И.</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">
+                        <label class="form-check-label" for="radio3">Васильев В.В</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end: modal window coupon__choose-user -->
+</body>
+</html>

@@ -1,0 +1,223 @@
+.course {
+    margin-bottom: 15px;
+}
+.course__header {
+    background-color: #34454D;
+    color: #fff;
+    border-top-left-radius: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course__body {
+    padding-top: 45px;
+    padding-bottom: 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.course__body input[type='number'] {
+    width: 60px;
+    margin-right: 3px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+.course__footer {
+    min-height: 100px;
+    background-color: #38B4DF;
+    color: #fff;
+    border-bottom-right-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course__footer button {
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 45px 15px;
+    box-shadow: 0 0 5px #fff;
+}
+.course__footer button:hover {
+    box-shadow: 0 0 10px #fff;
+}
+.course__footer button:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+.cources .table {
+    margin-bottom: 0;
+}
+.cources .table tbody>tr td {
+    border-top: none!important;
+}
+.cources tr td:nth-child(2n) {
+    font-weight: bold;
+}
+.cources td {
+    height: 67px;
+    font-size: 14px;
+}
+.cources-section {
+    display: none;
+}
+.cources-section_active {
+    display: block;
+}
+
+
+.tabs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tabs__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabs__tab {
+    cursor: pointer;
+    background-color: #38B4DF;
+    color: #fff;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px #38B4DF;
+}
+.tabs__tab_active {
+    box-shadow: none;
+}
+.tabs__tab:hover {
+    box-shadow: none;
+}
+
+
+.tarrifs {padding-left: 30px; padding-right: 30px;}
+.tarrif {
+    margin-bottom: 15px;
+}
+.tarrif__cell {
+
+}
+.tarrif__header {
+    background-color: #34454D;
+    color: #fff;
+    border-top-left-radius: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarrif__body {
+    padding-top: 45px;
+    padding-bottom: 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tarrif__body input[type='number'] {
+    margin-right: 3px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+.tarrif__footer {
+    min-height: 100px;
+    background-color: #38B4DF;
+    color: #fff;
+    border-bottom-right-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarrif__footer button {
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 45px 15px;
+    box-shadow: 0 0 5px #fff;
+}
+.tarrif__footer button:hover {
+    box-shadow: 0 0 10px #fff;
+}
+.tarrif__footer button:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+.tarrifs .table {
+    margin-bottom: 0;
+}
+.tarrifs .table tbody>tr td {
+    border-top: none!important;
+}
+.tarrifs tr td:nth-child(2n) {
+    font-weight: bold;
+}
+.tarrifs td {
+    height: 67px;
+    font-size: 14px;
+}
+.container__heading_tarrifs {
+    margin-bottom: 30px;
+}
+
+
+.coupon-table {
+
+}
+.coupon-talbe td {
+    vertical-align: middle!important;
+}
+.coupon-table thead {
+    background-color: #38B4DF;
+    color: #fff;
+}
+.coupon-table thead th {
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+}
+.coupon-table button {
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 30px;
+    border: 1px solid #38B4DF;
+    border-radius: 45px 15px;
+    box-shadow: 0 0 5px #fff;
+    background-color: #38B4DF;
+}
+.coupon-table button:hover {
+    box-shadow: 0 0 10px #38B4DF;
+}
+.coupon-table__choose {
+    display: flex;
+    align-items: center;
+}
+.coupon-table__choose>*{
+    margin-right: 15px;
+}
+.coupon-table__use-button {
+
+}
+.use-coupon__button {
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 30px;
+    border: 1px solid #38B4DF;
+    border-radius: 45px 15px;
+    box-shadow: 0 0 5px #fff;
+    background-color: #38B4DF;
+}
+.use-coupon__button:hover {
+    box-shadow: 0 0 10px #38b4df;
+}
